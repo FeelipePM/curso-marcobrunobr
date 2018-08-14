@@ -2,9 +2,24 @@ body{
     font-family: 'Open sans', sans-serif; 
 }
 
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+header {
+    text-align: justify;
+}
+
 h1 {
     font-size: 35px;
     font-weight: 400;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
 }
 
 a {
@@ -16,6 +31,7 @@ a {
 }
 
 #btn {
+    display: inline-block;
     color: white;
     background-color: #754ef9;
     padding: 14px 45px 14px 45px;
