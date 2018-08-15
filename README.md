@@ -1,4 +1,4 @@
-# curso-marcobrunobr
+# Curso MarcoBrunoBR
 
 Curso Básico HTML, CSS e JavaScript
 
