@@ -1,0 +1,11 @@
+.main-header {
+    display: inline-block;
+}
+
+.main-item .item {
+    font-size: 15px;
+    color: #101010;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 42px;
+}
