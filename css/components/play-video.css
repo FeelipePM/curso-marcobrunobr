@@ -1,5 +1,5 @@
 .play-video {
-    display: block;
+    display: inline-block;
     position: relative;
     width: 78px;
     height: 78px;
