@@ -1,7 +1,10 @@
 .main-card {
   display: inline-block;
   position: relative;
-  background-color: #754ef9;
+  background-color: rgba(117, 78, 249);
+  background-image: linear-gradient(rgba(117, 78, 249, 0.94), rgba(117, 78, 249, 0.94)), url(../../img/MaskGroup8-1x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 728px;
   height: 362px;
   vertical-align: top;
@@ -17,10 +20,10 @@
 }
 
 .main-card .title {
-  font-style: 15px;
+  font-size: 35px;
 }
 
 .main-card .description {
-  font-style: 15px;
+  font-size: 15px;
   opacity: 0.7;
 }
