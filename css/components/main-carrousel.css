@@ -1,0 +1,21 @@
+.main-carrousel .bullets {
+  text-align: center;
+}
+
+.main-carrousel .bullet {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #754ef9;
+  opacity: 0.4;
+  text-indent: -9999px;
+  border-radius: 50%;
+}
+
+.main-carrousel .bullet:not(:last-child) {
+  margin-right: 5px;
+}
+
+.main-carrousel .bullet.-isActive {
+  opacity: 1;
+}
