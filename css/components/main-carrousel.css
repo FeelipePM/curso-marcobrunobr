@@ -1,3 +1,27 @@
+.main-carrousel .cards {
+  position: relative;
+  height: 320px;
+  margin-bottom: 40px;
+}
+
+.main-carrousel .card {
+  width: 685px;
+  height: 100%;
+  background-color: #754ef9;
+  position: absolute;
+  left: 50%;
+  transform-origin: left center;
+  transform: translateX(-50%);
+  
+  transition: transform 200ms linear;
+}
+
+.main-carrousel .card.-isActive {
+  background-color: red;
+  transform: scale(1.1) translateX(-50%);
+  z-index: 1;
+}
+
 .main-carrousel .bullets {
   text-align: center;
 }
@@ -10,6 +34,10 @@
   opacity: 0.4;
   text-indent: -9999px;
   border-radius: 50%;
+  margin-bottom: 200px;
+  cursor: pointer;
+
+  transition: opacity 200ms linear;
 }
 
 .main-carrousel .bullet:not(:last-child) {
