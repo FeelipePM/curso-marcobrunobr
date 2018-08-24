@@ -1,9 +1,12 @@
-var $bullet = document.querySelector(".bullet");
+var $bullet = document.querySelectorAll(".bullet");
+var $bulletIsActive = document.querySelector(".bullet.-isActive");
 
-$bullet.addEventListener("click", clickInBullet);
+$bullet[0].addEventListener("click", clickInBullet);
+$bullet[1].addEventListener("click", clickInBullet);
+$bullet[2].addEventListener("click", clickInBullet);
 
 function clickInBullet() {
-  $bullet.classList.toggle("-isActive");
-  console.log("Funcionando");
-  
+  $bulletIsActive.classList.remove("-isActive");
+  this.classList.add("-isActive");
+  $bulletIsActive = this;
 }
