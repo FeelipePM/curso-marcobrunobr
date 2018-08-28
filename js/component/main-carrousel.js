@@ -2,8 +2,6 @@ var $bullet = document.querySelectorAll(".bullet");
 var $bulletIsActive = document.querySelector(".bullet.-isActive");
 var $cardIsActive = document.querySelector(".card.-isActive");
 
-console.log($cardIsActive);
-
 $bullet.forEach((item) => {
   item.addEventListener("click", clickInBullet)
 });
