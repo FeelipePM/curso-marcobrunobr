@@ -4,7 +4,7 @@
     left: 0;
     font-weight: 400;
     font-size: 18px;
-    color: #754ef9;
+    color: var(--primary-color);
     text-transform: uppercase;
     transform-origin: left bottom;
     transform: rotate(90deg); 
@@ -16,7 +16,7 @@
     display: inline-block;
     height: 1px;
     width: 55px;
-    background-color: #754ef9;
+    background-color: var(--primary-color);
     vertical-align: middle;
     margin-left: 20px;
     margin-right: 30px;

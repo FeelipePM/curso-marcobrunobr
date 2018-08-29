@@ -2,7 +2,7 @@
     display: inline-block;
     border-radius: 50%;
     padding: 70px;
-    border: 18px solid #754ef9;
+    border: 18px solid var(--primary-color);
     float: left;
     background-color: #fff;
 }
@@ -12,6 +12,6 @@
     height: 352px;
     object-fit: cover;
     border-radius: 50%;
-    border: 24px solid #754ef9;
+    border: 24px solid var(--primary-color);
     float: left;
 }

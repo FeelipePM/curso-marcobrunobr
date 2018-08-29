@@ -1,5 +1,5 @@
 .title-featured {
-    font-size: 60px;
+    font-size: 40px;
     text-transform: uppercase;
     margin-top: 185px;
     text-align: center;
@@ -7,5 +7,5 @@
 
 .title-featured .featured {
     font-size: 60px;
-    color: #754ef9;
+    color: var(--primary-color);
 }
